@@ -315,3 +315,9 @@ Podemos usar a propriedade `order` pra mudar a posição dos elemento sem ter q 
 * A logo que ficará na extrema esquerda e o menu ficara na extrema direita;
 * Os itens do menu ficarão um ao lado do outro, com um espaço de `.8rem` entre eles;
 * O último elemento do menu será um botão de contato e você poderá utilizar o seletor `:last-child` para estilizar.
+
+### 2 Columns Layout
+
+* Crie um layout com dua colunas, uma ao lado da outra;
+* A coluna da esquerca deverá ter `25%` de tamanho e a da direita deverá opupar todo o espaço que sobra;
+* Faça uma separação de `1rem` entre os elementos.
