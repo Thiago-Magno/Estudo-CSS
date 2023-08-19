@@ -321,3 +321,8 @@ Podemos usar a propriedade `order` pra mudar a posição dos elemento sem ter q 
 * Crie um layout com dua colunas, uma ao lado da outra;
 * A coluna da esquerca deverá ter `25%` de tamanho e a da direita deverá opupar todo o espaço que sobra;
 * Faça uma separação de `1rem` entre os elementos.
+
+### 9 Fotos em 3 colunas
+
+* Crie uma galeria de fotos onde teremos 3 colunas e 9 fotos
+* deixe um espaço de `.8rem` entre os elementos

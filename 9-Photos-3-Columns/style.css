@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-evenly;
+     */
+     flex-wrap: wrap;
+     gap: 0.8rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+
+img{
+    width: 30%;
+    border: 1px solid black;
+}
