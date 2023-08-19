@@ -326,3 +326,15 @@ Podemos usar a propriedade `order` pra mudar a posição dos elemento sem ter q 
 
 * Crie uma galeria de fotos onde teremos 3 colunas e 9 fotos
 * deixe um espaço de `.8rem` entre os elementos
+
+### Imagem dentro do botão
+
+* Crei um botão que contenha um ícone(img) e um texto
+* coloque um espaço de .4rem entre os elementos
+
+### Footer
+
+* Crie um `<footer>` de um site que contenha a data de criação do site;
+* Usando flex, alinhe o elemnto do futter bem ao meio;
+* Deixe uma altura de 8rem para o footer;
+* O footer deverá ficar no final da página.

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    height: 80vh;
+    
+    flex-basis: 8rem;
+    background-color: #e6e6e6;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height: 80vh;
+    flex-grow: 1;
+    background-color: #fff;
+    
+}
