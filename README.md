@@ -315,26 +315,29 @@ Podemos usar a propriedade `order` pra mudar a posição dos elemento sem ter q 
 * A logo que ficará na extrema esquerda e o menu ficara na extrema direita;
 * Os itens do menu ficarão um ao lado do outro, com um espaço de `.8rem` entre eles;
 * O último elemento do menu será um botão de contato e você poderá utilizar o seletor `:last-child` para estilizar.
+Solução:
+![](./Header-nav-menu/solucaoHeader.png)
 
 ### 2 Columns Layout
 
 * Crie um layout com dua colunas, uma ao lado da outra;
 * A coluna da esquerca deverá ter `25%` de tamanho e a da direita deverá opupar todo o espaço que sobra;
 * Faça uma separação de `1rem` entre os elementos.
-
+Solução:
+![](./2-Columns-Layout/solucaoColumn.png)
 ### 9 Fotos em 3 colunas
 
 * Crie uma galeria de fotos onde teremos 3 colunas e 9 fotos
 * deixe um espaço de `.8rem` entre os elementos
-
 ### Imagem dentro do botão
 
 * Crei um botão que contenha um ícone(img) e um texto
 * coloque um espaço de .4rem entre os elementos
-
+![](./Button-image/solucaoBtn.png)
 ### Footer
 
 * Crie um `<footer>` de um site que contenha a data de criação do site;
 * Usando flex, alinhe o elemnto do futter bem ao meio;
 * Deixe uma altura de 8rem para o footer;
 * O footer deverá ficar no final da página.
+![](./Footer/solucaoFooter.png)
