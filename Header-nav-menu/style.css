@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+ul{
+    list-style: none;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: #fff;
+    height: 7rem;
+    width: 100vw;
+    padding: 2.5rem;
+    
+}
+nav{
+    margin: 0 1rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+ul :first-child{
+    flex-grow: 1;
+    font-weight: 700;
+}
+li{
+    margin: 0 0.8rem;
+    font-weight: 500;
+}
+
+ul :last-child{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    height: 2rem;
+    width: 5vw;
+    font-weight: 500;
+    border: none;
+}
