@@ -70,10 +70,10 @@ Usamos uma separação por vírgulas para isso.
 
 Combinadores, pois eles buscam e combinão seletores a fim de aplicar uma estilização
 
-### Descendanto combinator
+### Descendent combinator
 
-- Identificação por um espaço entre os seletores.
-- Busaca um lementos dentro de outro
+- Identificação por um espaço entre os seletore;
+- Busaca um elementos dentro de outro elemento.
 
 ```css
     body article section h2{
@@ -85,7 +85,7 @@ Combinadores, pois eles buscam e combinão seletores a fim de aplicar uma estili
 
 - Identficado pelo sinal de `>` entre dois seletores
 - Seleciona somente o elemento que é filho direto do pai
-- Elementos depos do filho direto serão desconsiderado
+- Elementos depois do filho direto serão desconsiderado
 
 ```css
     body > header > nav > ul > li{
@@ -95,8 +95,8 @@ Combinadores, pois eles buscam e combinão seletores a fim de aplicar uma estili
 
 ### Adjacent siblig combinator
 
-- Identificação pelo cina `+` entre dois seletores
-- Seleciona comente o elemento do lado direto é irmão direto na hierarquia
+- Identificação pelo sinal `+` entre dois seletores
+- Seleciona somente o elemento que é irmão direto na hierarquia
 ```css
     h2 + p{ 
         color #002255
@@ -106,8 +106,8 @@ Combinadores, pois eles buscam e combinão seletores a fim de aplicar uma estili
 
 ### General sibling selector
 
-- Identificado pelo `~` entre dois seletores
-- Seleciona todos os elementos irmãos
+- Identificado pelo `~` entre dois seletores;
+- Seleciona todos os elementos irmãos.
 ```css
     h2 ~ p{
         color #002255
@@ -123,14 +123,14 @@ Combinadores, pois eles buscam e combinão seletores a fim de aplicar uma estili
 ```
 ### Dica
 - Seletores muito especificos tendem a causar dificuldade no reuso das regras de estilização dos elementos;
-- Muitas vezes, um simples uso de classes, torna o trabmalho muito mais eficiente.
+- Muitas vezes, um simples uso de classes, torna o trabalho muito mais eficiente.
 
 ## Pseudo-Classes
 
-É um tipo de seleto que íra selecionar um elemento que estiver em um estado específico.
-Como por exempli o primeiro elemento dentro de uma caixa, ou o elemento que está com o ponteiro do mouse em cima dele.
+É um tipo de seletor que íra selecionar um elemento que estiver em um estado específico.
+Como por exemplo o primeiro elemento dentro de uma caixa, ou o elemento que está com o ponteiro do mouse em cima dele.
 
-Pseudo-calses começam com 2 pontos seguido do nome da pseudo classe: `:pseudo-calsse-name`
+Pseudo-classes começam com o sinal de `:` seguido do nome da pseudo classe: `:pseudo-calsse-name`
 
 ### Selecionando elementos com pseudo-classes
 
@@ -143,20 +143,20 @@ Pseudo-calses começam com 2 pontos seguido do nome da pseudo classe: `:pseudo-c
     ```  
 
 - `:nth-of-type()`
-    * Neste tipo ele pega entro os tipos de elemento  que você esta procurando e apos selecionado dentro do parenteses `nth-of-type( )` em qual ele aplicara a estilização;
+    * Neste tipo ele pega entre os tipos de elemento que você esta procurando e após selecionado dentro do parenteses `nth-of-type( )` em qual ele aplicara a estilização;
     ```css
     article p:nth-of-type(1){
         color #002255
     }    
     ```
 - `nth-child`
-    * Este segue um principio parecido com o first-child mas é necessario selecionar qual filho tem que receber a estilização dentro do parenteses, e tambem assim como no first child ele conta os elementos dentro da caxaido do primeiro ao ultimo como filho então se o `p` n for o primeiro basta contar e ver qual filho ele é e colocar o numero correspondente;
+    * Este segue um principio parecido com o first-child mas é necessario selecionar qual filho tem que receber a estilização dentro do parenteses, e assim como no first child ele conta os elementos dentro da caixa do primeiro ao ultimo como filho então se o `p` não for o primeiro basta contar e ver qual filho ele é e colocar o numero correspondente;
     ```css
     article p:nth-child(1){
         color #002255
     }    
     ```
-    * Tambem pe possivel aplicar estilização dependendo se o index de cada for impar ou par com o `odd` e `even`  
+    * Tambem é possivel aplicar estilização dependendo se o index de cada for impar ou par com o `odd` e `even`  
 
 ### Ações do usuario
 
@@ -166,11 +166,11 @@ Pseudo-calses começam com 2 pontos seguido do nome da pseudo classe: `:pseudo-c
         color #fff
     }    
     ```
-- `:focus` é mais para campo que receberam um tipo de texto, e assim quando selecionados/ativos eles podem trocar a estilização, como quando tocamos em um campo de email e ele aparece um pouco mais brilhante ou com uma borda diferente
+- `:focus` é mais para campo que receberam um tipo de texto, assim quando selecionados/ativos eles podem trocar a estilização, como quando tocamos em um campo de email e ele aparece um pouco mais brilhante ou com uma borda diferente
 
 ### Atributos
 
-- `:disabled` serve para quando um campo/elemento estiver recebendo o atributo de `desabled` nos podemos mudar o seu estilo 
+- `:disabled` serve para quando um campo/elemento estiver recebendo o atributo de `disabled` nos podemos mudar o seu estilo 
 -  `:required` é o mesmo caso do `:disabled`
 
 Referencia para mais estudo: (https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
@@ -191,10 +191,10 @@ Se comporta parecido com os pseudo-classes, com ele podemos adicionar elemento H
 
 ## Layouts
 
-Layout é como os elementos estão distribuidos na tela, a seguir alguma linhas copm a evolução dos layouts.
+Layout é como os elementos estão distribuidos na tela, a seguir algumas linhas com a evolução dos layouts.
 
 ### Normal flow
-É a manei que os elementos `block` e `inline` ficam na pagina
+É a maneira que os elementos `block` e `inline` ficam na pagina
 
 ```html
     <p>Texto block com <strong>inline</strong> dentro</p>
@@ -243,8 +243,8 @@ A caixa se torna flexivel, fazendo com que os elementos internos possam recebem 
 - Flex container: é o container que contem os itens dentro de si
     *  Flex item
 - Nesting: é um conceito onde um elemento vive dentro de outro elemento
-- Axis: é o eixo do conteiner, quando aplicamos o `display:flex` o eixo pode mudar dependendo do atributos que colocarmos por padrão o eixo é na na horizontal, mas com o `flex-direction:column` podesse mudalo para vertical
-    * main: exio principal
+- Axis: é o eixo do conteiner, quando aplicamos o `display:flex` o eixo pode mudar dependendo dos atributos que colocarmos por padrão o eixo é na na horizontal, mas com o `flex-direction:column` podesse muda-lo para vertical
+    * main: eixo principal
         * start, end
     * cross: eixo cross
         * start, end
@@ -255,7 +255,7 @@ A caixa se torna flexivel, fazendo com que os elementos internos possam recebem 
 ## Propriedades do Flex Container
 
 - Direção dos itens
-    * a direção dos itens flex são em um dimenção(horizontal/vertical)
+    * a direção dos itens flex são em uma direção(horizontal/vertical)
     * valores:
         - row
         - row-reverse
@@ -263,13 +263,14 @@ A caixa se torna flexivel, fazendo com que os elementos internos possam recebem 
         - column-reverse
 - Multi linhas
     * `flex-wrap` cria novas linha se for necessario
-- Flex Flow: `felx-flow` possibilita utiliza varia das propriedade acima como em um short hand
+- Flex Flow: `flex-flow` possibilita utiliza varias das propriedades acima como em um short hand
 - Alinhamento
-    * Principal/ `justify-content` alinha os elementos dentro do container e faz a distribuição dos elementos
+    * Principal:
+        - `justify-content` alinha os elementos dentro do container e faz a distribuição dos elementos
         - `flex-start` posiciona os itens no começo do eixo proncipal
         - `flex-end` posiciona os itens no final do eixo principal
         - `center` alinha todos os itens no centro do container
-        - `space-around` adiciona um espaçamento emvolta dos itens 
+        - `space-around` adiciona um espaçamento em volta dos itens 
         - `space-between` adiciona um espaço entre os itens
         - `space-evenly` coloca um espaçamento igual no itens
     * Cruzado/ `align-items`
@@ -279,7 +280,7 @@ A caixa se torna flexivel, fazendo com que os elementos internos possam recebem 
         - `center` alinha no meio do eixo cruzado
 - Espaços entre os itens/`gap`
     * valores:
-        - Unidade de medida
+        - Unidades de medida
         - fixas: px, pt
         - flexiveis: %, em, rem
 
@@ -288,15 +289,15 @@ A caixa se torna flexivel, fazendo com que os elementos internos possam recebem 
 - `flex-basis:`
     * Pega o tamanha do elemento e ajusta ao tamanho do conteudo automaticamente
     * O valor do tamanha muda de acordo com o eixo principal
-    * No caso de ele esta no comportamento padrão ele toma posse da propriedade de largura do elemento
-    * No caso de ele esta no comportamento `column` ele toma posse da propriedade de altura do elemento
+    * No caso de ele estar no comportamento padrão ele toma posse da propriedade de largura do elemento
+    * No caso de ele estar no comportamento `column` ele toma posse da propriedade de altura do elemento
     * Recebe os mesmos valores do height e width: px, em, pt, rem e %
     * Fixa um tamanho em relação a os outros elementos
 - `flex-grow`
     * É flexivel em relação a os outros elementos
     * O crescimento do item dentro do conteiner em relação aos espaços vazios
-    * Esse atributo é dividido em frações  de um espaço vazio, por exemplo quando atribuimos o numero 1 ele divide esse esáço vazio em uma fração
-    , logo, fazendo com que o elemento ocuppe todo o espaço vazio. Caso coloque 1 fração para 2 elementos ele dividiria o espaço vazio em duas frações de um.
+    * Esse atributo é dividido em frações de um espaço vazio, por exemplo quando atribuimos o numero 1 ele divide esse esáço vazio em uma fração,
+     logo, fazendo com que o elemento ocupe todo o espaço vazio. Caso coloque 1 fração para 2 elementos ele dividiria o espaço vazio em duas frações de um.
     * Caso ocorra uma inversão de eixo ele faz o crescimento em altura.  
 - `flex-shrink` 
     * Já é aplicado por padrão, mas pode ser removido usando o valor `0` quando removido o conteudo vaza da caixa
