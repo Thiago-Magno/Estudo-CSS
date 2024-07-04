@@ -34,7 +34,7 @@ Conecta um elemento HTML com o CSS a fim de alterar o elemento.
         
     }
     ```
-- Atribute Selecto
+- Atribute Selector
     * Um elemento que tenha um atributo especifico.
     * Forma de chamar no CSS:
     ```css
@@ -42,6 +42,9 @@ Conecta um elemento HTML com o CSS a fim de alterar o elemento.
         
     }
     ```
+    * Neste chama um elemento com o atributo `title`
+ 
+      
 - Pseudo-class selector
     * Elementos em um estado especifico.
     * Forma de chamar no CSS:
