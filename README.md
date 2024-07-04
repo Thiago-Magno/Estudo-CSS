@@ -1,6 +1,6 @@
 # Estudos CSS
 
-Neste repositório contem anotações e algun trecho de como funcionam algumas coisas de CSS, talvez não tenha algo em especicifico porque eu já estudei CSS antes e nesta parte vai ter coisas como child, combitatos e pseudo-classe e mais coisas para frente conforme eu for estudando. 
+Neste repositório contem anotações e alguns trechos de como funcionam algumas coisas de CSS, talvez não tenha algo em especicifico porque eu já estudei CSS antes e nesta parte vai ter coisas como child, combitatos e pseudo-classe e mais coisas para frente conforme eu for estudando. 
 
 ## Seletores
 
