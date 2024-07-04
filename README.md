@@ -4,7 +4,7 @@ Neste repositório contem anotações e alguns trechos de como funcionam algumas
 
 ## Seletores
 
-Coneta um elemento HTML com oCSS a fim de alterar o elemento.
+Conecta um elemento HTML com o CSS a fim de alterar o elemento.
 
 ### Tipos
 
